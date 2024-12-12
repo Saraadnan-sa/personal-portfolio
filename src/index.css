@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header and Titles */
+h1, h2 {
+  color: #007bff;
+}
+
+/* Card Styling */
+.card {
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
+}
+
+/* List Group */
+.list-group-item {
+  background-color: #e9ecef;
+  border: none;
+  padding: 10px;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #007bff;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff4a;
+  border-color: #007bff;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Image Styling */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+/* Layout Adjustments */
+.container {
+  padding: 30px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.col-md-8, .col-md-4 {
+  padding: 15px;
+}
+
+/* Card Body */
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.card-text {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
